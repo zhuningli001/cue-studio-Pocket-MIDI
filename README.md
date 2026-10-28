@@ -9,13 +9,19 @@
 
 在线体验：[CUE Studio](https://cue-studio-ten.vercel.app/)
 
+直接进入：[电脑工作台](https://cue-studio-ten.vercel.app/?device=pc) · [手机口袋乐器](https://cue-studio-ten.vercel.app/?device=mob)
+
+第一次玩：点击「开启声音」，再开启伴奏；保持 C 调五声音阶，尝试 E、U、P 三个电脑按键，或点击手机打击垫。点击「录制 4 小节」，听完四拍倒数后开始演奏，结束后会自动量化并循环。
+
+这里的 Pocket MIDI 指键盘式音乐交互；当前尚未接入外部 MIDI 设备，也不提供 MIDI 文件导出。
+
 ## 本地使用
 
 在此文件夹打开终端：
 
 ```sh
-git clone https://github.com/zhuningli001/cue-studio.git
-cd cue-studio
+git clone https://github.com/zhuningli001/cue-studio-Pocket-MIDI.git
+cd cue-studio-Pocket-MIDI
 npm ci
 npm run dev
 ```

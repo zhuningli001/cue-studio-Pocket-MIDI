@@ -6,3 +6,5 @@ dist/
 !.env.example
 .DS_Store
 *.log
+# Local promotional drafts and recording tools
+media/
