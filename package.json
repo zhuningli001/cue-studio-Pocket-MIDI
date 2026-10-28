@@ -1,0 +1,16 @@
+{
+  "name": "cue-instrument",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "cuelume": "0.2.8",
+    "tone": "^15.1.22",
+    "vite": "^6.1.0"
+  }
+}
